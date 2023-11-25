@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @import url(https://db.onlinewebfonts.com/c/547fcb026eb30833b9696544bec8e2ac?family=Baskerville+Display+PT+Web); */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* font-family: "Baskerville Display PT Web"; */
+
+body {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Carousel ***/
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+/* Navbar ***/
+.navbar {
+  height: 92px;
+  border: 0.5px solid #AFAFAF;
+}
+.navbar .megamenu{ padding: 1rem; }
+.dropdown-toggle::after {
+  display: none;
+}
+.menu-left li a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 25px ! important;
+}
+.menu-left li a:first-child {
+  padding-left: unset ! important;
+}
+.menu-right li {
+  padding: 0 18px;
+}
+.menu-right li:last-child {
+  padding-right: unset ! important;
+}
+.btn-grey  {
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: #EEEEEE;
+  font-weight: 700;
+  color: #2B2B2B;
+}
+.btn-blue  {
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: #4942BB;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.megamenu.dropdown-menu {
+  background: #4942BB;
+  color: #FFFFFF;
+  border-radius: 0px 0px 50px 50px;
+  padding: 170px 0 120px;
+}
+.col-megamenu li {
+  padding: 43px 0;
+}
+.col-megamenu li a {
+  color: #FFFFFF;
+  font-size: 50px;
+  /* font-family: "Baskerville Display PT Web"; */
+  font-family: "Baskerville Regular";
+  text-decoration: none;
+}
+.col-megamenu li a:hover {
+  border-bottom: 2px solid #000000;
+}
+.col-megamenu li p {
+  font-size: 16px;  
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff9a;
+}
+.col-megamenu li p span {
+  color: #ffffff;
+}
+
+
+/* ============================AGENDA CSS======================================= */
+body {
+  background-image: url('./assets/images/bg\ image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card {
+  background:rgba(73, 66, 187, 10);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  border-radius: 0px;
+}
+.card-title{
+  font-size: 50px;
+  line-height: 70px;
+  padding-bottom: 89px;
+  margin: 0px;
+}
+div{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+.cards{
+  padding-left: 127px;
+  padding-right: 236px;
+ 
+}
+.cards h1{
+  font-size: 50px;
+  line-height: 30px;
+  padding-top: 82px;
+}
+.cards h4{
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 59px;
+}
+.cards_content{
+  padding-left: 49px;
+
+}
+.cards p{
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 51px;
+}
+.cards-1, .cards-4{
+  background: #101010;
+  color: white;
+}
+.cards-2 , .cards-3{
+  background: #232323;
+  color: white;
+}
+.secondRow{
+  margin-top: 136px;
+}
+.cards-1{
+  border-bottom-right-radius: 180px;
+}
+.cards-2{
+  border-bottom-left-radius: 180px;
+}
+.cards-3{
+  border-top-right-radius: 180px;
+}
+.cards-4{
+  border-top-left-radius: 180px;
+}
+.cardContainer{
+  background: #4942BB;
+}
+#hr{
+  border: 3px solid #2B2B2B;
+}
+
+/* third section  */
+.detailsRow{
+  background: #EEEEEE;
+}
+.date{
+  margin-top: 130px;
+  /* margin-left: 227px; */
+  margin-bottom: 153px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+.date h1{
+  font-size: 150px;
+}
+.date p{
+  font-size: 24px;
+}
+.participants{
+  padding-left: 32px;
+}
+.detailsBtn{
+  border: none;
+  padding: 28px 131px 26px 131px;
+  background: #4942BB;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+.button{
+  align-items: end;
+  display: flex;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================================== */
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+/* ============ mobile view .end// ============ */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1260px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+@media (min-width: 1900px) {
+  .container {
+    max-width: 1640px;
+  }
+}
+
+
+
+@media (max-width: 1600px) {
+  .menu-right li {
+    padding: 0 10px;
+  }
+  .megamenu.dropdown-menu {
+    padding: 150px 0 80px;
+  }
+  .col-megamenu li {
+    padding: 30px 0;
+  }
+  .col-megamenu li a {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .menu-right li {
+    padding: 0 5px;
+  }
+  .megamenu.dropdown-menu {
+    padding: 80px 0 50px;
+  }
+  .col-megamenu li {
+    padding: 20px 0;
+  }
+  .col-megamenu li a {
+    font-size: 25px;
+  }
+  .btn-grey {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .menu-right li a {
+    padding: 0;
+  }
+  .menu-right li {
+    padding: 0 5px;
+  }
+  .megamenu.dropdown-menu {
+    padding: 80px 0 50px;
+  }
+  .col-megamenu li {
+    padding: 20px 0;
+  }
+  .col-megamenu li a {
+    font-size: 25px;
+  }
+  .btn-grey, .btn-blue {
+    width: 120px;
+  }
+
+}
+
+
+
+/* media query for agenda  */
+@media(max-width:1900px){
+  .cards {
+    padding-left: 94px;
+    padding-right: 102px;
+}
+.date h1 {
+  font-size: 50px;
+}
+.participants {
+padding-left: 14px;
+}
+.date p {
+font-size: 11px;
+}
+.button{
+  justify-content: center;
+  /* align-items: center; */
+}
+}
+
+
+
+@media(max-width:1580px){
+  .cards {
+    padding-left: 108px;
+    padding-right: 88px;
+}
+.date h1 {
+  font-size: 50px;
+}
+.participants {
+padding-left: 14px;
+}
+.date p {
+font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+}
+
+
+
+@media(max-width:1497px){
+  .card-title{
+    padding-bottom: 48px;
+  }
+  /* agenda cards section */
+  .cards {
+    padding-left: 86px;
+    padding-right: 81px;
+  }
+  .cards-1{
+    border-bottom-right-radius: 150px;
+  }
+  .cards-2{
+    border-bottom-left-radius: 150px;
+  }
+  .cards-3{
+    border-top-right-radius: 150px;
+  }
+  .cards-4{
+    border-top-left-radius: 150px;
+  }
+  .cards h1 {
+    font-size: 45px;
+    line-height: 26px;
+    padding-top: 82px;
+  }
+  .cards h4 {
+    font-size: 23px;
+    line-height: 28px;
+    padding-top: 56px;
+  }
+  .cards p {
+    margin-bottom: 0;
+    padding-top: 18px;
+    padding-bottom: 49px;
+}
+.date h1 {
+  font-size: 50px;
+}
+.participants {
+padding-left: 14px;
+}
+.date p {
+font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+}
+
+
+
+
+@media(max-width:1441px){
+  .card{
+    object-fit: contain;
+    margin-top: 93px;
+  }
+ 
+  .card-title {
+    font-size: 48px;
+    line-height: 70px;
+    padding-bottom: 48px;
+    margin: 0px;
+}
+
+  .card img{
+    object-fit: cover;
+    height: 215px;
+  }
+  .card-img-overlay{
+    height: 215px;
+  }
+  .date h1 {
+    font-size: 50px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+}
+
+
+
+
+@media(max-width:1400px){
+  .cards {
+    padding-left: 66px;
+    padding-right: 70px;
+  }
+  .cards-1{
+    border-bottom-right-radius: 130px;
+  }
+  .cards-2{
+    border-bottom-left-radius: 130px;
+  }
+  .cards-3{
+    border-top-right-radius: 130px;
+  }
+  .cards-4{
+    border-top-left-radius: 130px;
+  }
+  .cards p {
+    margin-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 43px;
+    font-size: 15px;
+  }
+  .cards h1 {
+    font-size: 43px;
+    line-height: 24px;
+    padding-top: 80px;
+  }
+  .cards h4 {
+    font-size: 22px;
+    line-height: 26px;
+    padding-top: 53px;
+  }
+  .date h1 {
+    font-size: 50px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+ 
+
+}
+
+
+@media(max-width:1200px){
+  .cards {
+    padding-left: 53px;
+    padding-right: 58px;
+  }
+  .cards h4 {
+    font-size: 19px;
+    line-height: 21px;
+    padding-top: 50px;
+  }
+  .cards h1 {
+    font-size: 40px;
+    line-height: 17px;
+    padding-top: 77px;
+}
+.cards-1{
+  border-bottom-right-radius: 110px;
+}
+.cards-2{
+  border-bottom-left-radius: 110px;
+}
+.cards-3{
+  border-top-right-radius: 110px;
+}
+.cards-4{
+  border-top-left-radius: 110px;
+}
+.date h1 {
+  font-size: 50px;
+}
+.participants {
+padding-left: 14px;
+}
+.date p {
+font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+
+}
+
+
+
+
+@media(max-width:1025px){
+  .card{
+    object-fit: contain;
+    margin-top: 93px;
+  }
+ 
+  .card-title {
+    font-size: 47px;
+    line-height: 70px;
+    padding-bottom: 42px;
+    margin: 0px;
+}
+
+  .card img{
+    object-fit: cover;
+    height: 215px;
+  }
+  .card-img-overlay{
+    height: 215px;
+  }
+  .date h1 {
+    font-size: 50px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+}
+
+
+
+@media(max-width:992px){
+  .cards {
+    padding-left: 21px;
+    padding-right: 22px;
+  }
+  .cards-1{
+    border-bottom-right-radius: 85px;
+  }
+  .cards-2{
+    border-bottom-left-radius: 85px;
+  }
+  .cards-3{
+    border-top-right-radius: 85px;
+  }
+  .cards-4{
+    border-top-left-radius: 85px;
+  }
+  .cards h4 {
+    font-size: 22px;
+    line-height: 28px;
+    padding-top: 45px;
+  }
+  .cards p {
+    margin-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 43px;
+    font-size: 13px;
+  }
+  .cards h1 {
+    font-size: 32px;
+    line-height: 6px;
+    padding-top: 74px;
+  }
+  .cards_content {
+    padding-left: 36px;
+}
+.date h1 {
+  font-size: 50px;
+}
+.participants {
+padding-left: 14px;
+}
+.date p {
+font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+.detailsBtn{
+  padding: 24px 85px 23px 85px
+}
+
+}
+
+
+
+
+
+@media(max-width:769px){
+  .card{
+    object-fit: contain;
+    margin-top: 93px;
+  }
+ 
+  .card-title{
+    font-size: 45px;
+    line-height: 70px;
+    padding-bottom: 33px;
+    margin: 0px;
+  }
+
+  .card img{
+    object-fit: cover;
+    height: 215px;
+  }
+  .card-img-overlay{
+    height: 215px;
+  }
+  .date h1 {
+    font-size: 50px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+.detailsBtn{
+  padding: 25px 98px 20px 92px;
+}
+
+}
+
+
+
+@media(max-width:768px){
+  .cards_content {
+    padding-left: 17px;
+  }
+  .cards h1 {
+    padding-top: 63px;
+  }
+  .cards{
+    border-radius: 0px;
+  }
+  .cards-3{
+    background-color: #101010;
+  }
+  .cards-4{
+    background-color: #303030;
+  }
+  .date h1 {
+    font-size: 50px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+}
+
+
+@media(max-width:576px){
+  .secondRow{
+    margin: 34px 34px 0px 34px;
+  }
+  
+  .cardContainer{
+    background-image: url('./assets/images/bg\ image.png');
+    padding-top: 34px;
+  }
+  .date h1 {
+    font-size: 50px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+.detailsRow{
+  margin: 0px 34px 0px 34px;
+}
+}
+
+
+
+
+@media(max-width:426px){
+ 
+  .card{
+    object-fit: contain;
+    margin-top: 93px;
+  }
+ 
+  .card-title{
+    font-size: 35px;
+    line-height: 70px;
+    padding-bottom: 33px;
+    margin: 0px;
+  }
+
+  .card img{
+    object-fit: cover;
+    height: 215px;
+  }
+  .cards h1 {
+    padding-top: 50px;
+  }
+  .cards h4 {
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 36px;
+  }
+  .secondRow {
+    margin: 6px 16px 0px 16px;
+  }
+  /* third section  */
+  .date h1 {
+    font-size: 54px;
+}
+  .date p {
+    font-size: 11px;
+}
+  .detailsBtn{
+    border: none;
+    padding: 28px 59px 26px 60px;
+    background: #4942BB;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px; 
+  }
+  .button{
+    justify-content: center;
+  }
+  .detailsRow{
+    margin: 0px 16px 0px 16px;
+
+  }
+  .participants {
+    padding-left: 20px;
+}
+.button{
+  justify-content: center;
+}
+
+  
+}
+
+
+@media(max-width:415px){
+  .cards p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 20px;
+  }
+  .cards h4 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 17px;
+  }
+  .cards h1 {
+    font-size: 35px;
+  }
+  .cards h1 {
+    padding-top: 50px;
+  }
+  .cards h4 {
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 36px;
+  }
+  .secondRow {
+    margin: 6px 16px 0px 16px;
+  }
+  /* third section  */
+  .date h1{
+    font-size: 59px;
+  }
+  .date p{
+    font-size: 12px;
+  }
+  .detailsBtn{
+    border: none;
+    padding: 28px 59px 26px 60px;
+    background: #4942BB;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px; 
+  }
+  .button{
+    justify-content: center;
+  }
+  .detailsRow{
+    margin: 0px 16px 0px 16px;
+
+  }
+  .button{
+    justify-content: center;
+  }
+}
+
+
+@media(max-width:376px){
+  .secondRow {
+    margin: 20px 20px 0px 20px;
+  }
+  .date h1 {
+    font-size: 45px;
+}
+.participants {
+  padding-left: 14px;
+}
+.date p {
+  font-size: 11px;
+}
+.button{
+  justify-content: center;
+}
+.detailsBtn{
+  padding: 24px 52px 24px 52px;
+}
+}
+
+
+@media(max-width:321px){
+  .cards h1 {
+    padding-top: 50px;
+  }
+  .cards h4 {
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 36px;
+  }
+  .secondRow {
+    margin: 6px 16px 0px 16px;
+  }
+  /* third section  */
+  .date h1 {
+    font-size: 37px;
+}
+  .date p {
+    font-size: 9px;
+ }
+  .detailsBtn {
+    border: none;
+    padding: 22px 25px 19px 36px;
+    background: #4942BB;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 27px;
+}
+  .button{
+    justify-content: center;
+  }
+  .participants {
+    padding-left: 15px;
+}
+
+}
+
+
+
+  
+  
